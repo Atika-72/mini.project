@@ -1,8 +1,8 @@
 <?php
 // 1. Pastikan menangkap data dengan pengecekan agar tidak Undefined
-$nama_mhs   = $_POST['nama'] ?? "Lily Collins";
+$nama_mhs   = $_POST['nama'] ?? "Atika Kumailiya";
 $nim_mhs    = $_POST['nim'] ?? "I43253267";
-$prodi      = "Digital Business"; // Pastikan variabel ini ada
+$prodi      = "Bisnis Digital"; // Pastikan variabel ini ada
 
 // Menangkap array mata kuliah dan nilai
 $daftar_matkul = $_POST['matkul'] ?? [];

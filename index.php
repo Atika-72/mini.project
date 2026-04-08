@@ -3,7 +3,7 @@ require_once 'Mahasiswa.php';
 require_once 'Laporan.php';
 
 // Simulasi Data Mahasiswa (Bisa dikembangkan dengan Database/Form)
-$mhs = new Mahasiswa("Atika Kumailiya", "I43253267", "Digital Business");
+$mhs = new Mahasiswa("Atika Kumailiya", "I43253267", "Bisnis Digital");
 $mhs->tambahNilai("Pemrograman Berorientasi Objek", 95);
 $mhs->tambahNilai("Algoritma & Struktur Data", 88);
 $mhs->tambahNilai("E-Commerce", 90);
