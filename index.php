@@ -3,10 +3,11 @@ require_once 'Mahasiswa.php';
 require_once 'Laporan.php';
 
 // Simulasi Data Mahasiswa (Bisa dikembangkan dengan Database/Form)
-$mhs = new Mahasiswa("Lily Collins", "I43253267", "Digital Business");
+$mhs = new Mahasiswa("Atika Kumailiya", "I43253267", "Digital Business");
 $mhs->tambahNilai("Pemrograman Berorientasi Objek", 95);
 $mhs->tambahNilai("Algoritma & Struktur Data", 88);
 $mhs->tambahNilai("E-Commerce", 90);
+$mhs->tambahNilai("Desain Grafis & Multimedia", 89);
 
 $cetakKHS = new LaporanKHS($mhs);
 ?>
@@ -50,6 +51,11 @@ $cetakKHS = new LaporanKHS($mhs);
         <div class="grid grid-cols-2 gap-6">
             <input type="text" name="matkul[]" placeholder="Mata Kuliah 3" class="p-3 border rounded-lg">
             <input type="number" name="nilai[]" placeholder="Nilai" class="p-3 border rounded-lg">
+        </div>
+        <div class="grid grid-cols-2 gap-6">
+            <input type="text" name="matkul[]" placeholder="Mata Kuliah 4" class="p-3 border rounded-lg">
+            <input type="number" name="nilai[]" placeholder="Nilai" class="p-3 border rounded-lg">
+
     </div>
 
     <button type="submit" class="mt-6 bg-indigo-900 text-white px-8 py-2 rounded-lg">PROSES KHS</button>
