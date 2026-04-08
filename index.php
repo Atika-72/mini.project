@@ -47,6 +47,9 @@ $cetakKHS = new LaporanKHS($mhs);
             <input type="text" name="matkul[]" placeholder="Mata Kuliah 2" class="p-3 border rounded-lg">
             <input type="number" name="nilai[]" placeholder="Nilai" class="p-3 border rounded-lg">
         </div>
+        <div class="grid grid-cols-2 gap-6">
+            <input type="text" name="matkul[]" placeholder="Mata Kuliah 3" class="p-3 border rounded-lg">
+            <input type="number" name="nilai[]" placeholder="Nilai" class="p-3 border rounded-lg">
     </div>
 
     <button type="submit" class="mt-6 bg-indigo-900 text-white px-8 py-2 rounded-lg">PROSES KHS</button>

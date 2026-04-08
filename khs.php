@@ -88,7 +88,7 @@ $ipk_kumulatif = ($jumlah_data > 0) ? number_format((($total_skor / $jumlah_data
         </table>
 
         <div class="flex justify-between items-center bg-slate-50 p-6 rounded-xl">
-            <p class="text-xs italic text-slate-400 italic">* Sah tanpa tanda tangan basah.</p>
+            <p class="text-xs italic text-slate-400 italic">* Tidak sah tanpa tanda tangan basah.</p>
             <div class="text-right">
                 <p class="text-xs font-bold uppercase text-slate-400">IPK Kumulatif</p>
                 <p class="text-4xl font-black"><?= $ipk_kumulatif ?></p>
