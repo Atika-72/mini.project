@@ -95,9 +95,15 @@ $ipk_kumulatif = ($jumlah_data > 0) ? number_format((($total_skor / $jumlah_data
             </div>
         </div>
 
-        <div class="no-print mt-10 text-center">
-            <button onclick="window.print()" class="bg-indigo-900 text-white px-8 py-3 rounded-lg font-bold">Cetak Dokumen</button>
-        </div>
+        <div class="no-print mt-10 flex justify-center gap-4">
+    <a href="index.php" class="bg-slate-200 text-slate-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-300 transition-all">
+        INPUT ULANG
+    </a>
+
+    <button onclick="window.print()" class="bg-indigo-900 text-white px-8 py-3 rounded-lg font-bold hover:bg-indigo-800 transition-all">
+        CETAK DOKUMEN
+    </button>
+</div>
     </div>
 </body>
 </html>
